@@ -1,0 +1,13 @@
+form label {
+    width: 80px;
+    display: inline-block;
+}
+
+/* body{
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+} */

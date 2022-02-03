@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body style = text-align:center>
+    <h2>Enter Student Information</h2>
+    <section id = "content"></section>
+    <form id = "form">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" size=20><br><br>
+        
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="age" >Age:</label>
+        <input type="text" id="age" name="age"><br><br> 
+        
+        <label for="dob">DOB:</label>
+        <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy" ><br><br> 
+        
+        <label for="rollno">Roll no:</label>
+        <input type="text" id="rollno" name="rollno"><br><br> 
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+
+        <br><br>
+        <p>Please select your gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <br><br>
+        <label for="mobile">Choose a mobile device:</label>
+        <select name="mobile" id="mobile">
+            <option value="blank"> </option>
+            <option value="android">Android</option>
+            <option value="ios">ios</option>
+        </select>
+        <br><br>
+
+        <label for="hobbies">Hobbies(Enter in comma separated):</label>
+        <input type="text" id="hobbies" name="hobbies">
+
+        <button type = "submit" name = "enter" id = "clicksubmit" >Submit </button>
+
+    </form>
+    
+    <p>--------------------------------------------------------------------------------------------</p>
+    <label for="studentdetails"><b >Enter Student Roll no. to get details:</b>
+    <input type="text" id="studentdetailsRollNo" name="studentdetailsRollNo"></label> <button type = "submit" name = "get" id = "clickget">Get</button>
+    
+<script src='script.js'></script>
+
+</body>
+</html>
